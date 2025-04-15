@@ -42,7 +42,7 @@ const cardRow = document.getElementById("card-row");
 
 function generateCardElementHTML(name, role, email, img) {
   const cardElement = `
-  <div class="col-md-4">
+  <div class="col-md-6 col-lg-4">
             <div class="card d-flex flex-row">
               <div class="img">
                 <img src="${img}" alt="${name}" />
